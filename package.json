@@ -1,0 +1,25 @@
+{
+  "name": "myapp_services",
+  "version": "1.0.0",
+  "description": "Buy/sell products application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Asmita JADHAV , Adwait DAMLE",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "less-middleware": "^3.0.1",
+    "mongoose": "^5.2.2",
+    "morgan": "^1.9.0",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
